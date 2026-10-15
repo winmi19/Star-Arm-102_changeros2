@@ -5,9 +5,9 @@ import struct
 import argparse
 
 SERVO_BAUDRATE = 1000000  # 舵机的波特率 / Servo communication baud rate
-LEADER_PORT_NAME = "/dev/ttyUSB2"  # leader端口号
+LEADER_PORT_NAME = "/dev/ttyUSB0"  # leader端口号
 FOLLOWER_PORT_NAME_Arr = [
-   "/dev/ttyUSB3"
+   "/dev/ttyUSB1"
     # "COM33"
     ]  # follower端口号
 

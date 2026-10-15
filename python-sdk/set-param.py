@@ -3,7 +3,7 @@ import struct
 import time
 
 BAUDRATE = 1000000
-USB = "/dev/ttyUSB2"    # 替换为实际的串口名称
+USB = "/dev/ttyUSB0"    # 替换为实际的串口名称
 # USB = 'COM3'  # Windows系统下的串口名称
 
 class ServoProtocol:
